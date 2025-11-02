@@ -7,7 +7,25 @@ import chronicPainImg from "../assets/Images/chronicPain.jpeg";
 import backPainImg from "../assets/Images/backPain.jpeg";
 import digestiveIssueImg from "../assets/Images/digestiveIssue.jpeg";
 import arthritiesImg from "../assets/Images/arthrities.jpeg";
-
+import image1 from "../assets/Images/certificates/image-1.jpeg";
+import image2 from "../assets/Images/certificates/image-2.jpeg";
+import image3 from "../assets/Images/certificates/image-3.jpeg";
+import image4 from "../assets/Images/certificates/image-4.jpeg";
+import image5 from "../assets/Images/certificates/image-5.jpeg";
+import image6 from "../assets/Images/certificates/image-6.jpeg";
+import image7 from "../assets/Images/certificates/image-7.jpeg";
+import image8 from "../assets/Images/certificates/image-8.jpeg";
+import image9 from "../assets/Images/certificates/image-9.jpeg";
+import image10 from "../assets/Images/certificates/image-10.jpeg";
+import image11 from "../assets/Images/certificates/image-11.jpeg";
+import video1 from "../assets/Images/testimonials/video-1.mp4"
+import video2 from "../assets/Images/testimonials/video-2.mp4"
+import video3 from "../assets/Images/testimonials/video-3.mp4"
+import video4 from "../assets/Images/testimonials/video-4.mp4"
+import video5 from "../assets/Images/testimonials/video-5.mp4"
+import video6 from "../assets/Images/testimonials/video-6.mp4"
+import video7 from "../assets/Images/testimonials/video-7.mp4"
+import video8 from "../assets/Images/testimonials/video-8.mp4"
 
 
 
@@ -32,7 +50,7 @@ export const testimonialsData = [
 ];
 
 export const conditionsData = [
-  { title: "Chronic Pain", image: chronicPainImg},
+  { title: "Chronic Pain", image: chronicPainImg },
   { title: "Stress", image: stressImg },
   { title: "Anxiety", image: anxietyImg },
   // { title: "Migraines", image: "/images/migraines.jpg" },
@@ -83,10 +101,19 @@ export const timelineData = [
 ];
 
 export const certifications = [
-  { title: "Diploma in Naturopathy", image: "/assets/images/naturopathy-cert.jpg" },
-  { title: "Masters in TCM", image: "/assets/images/tcm-cert.jpg" },
-  { title: "Ayurvedic Acupressure Mastery", image: "/assets/images/ayurvedic-cert.jpg" },
-  { title: "Sujok Therapy Certification", image: "/assets/images/sujok-cert.jpg" },
+  { image: image1 },
+  { image: image2 },
+  { image: image3 },
+  { image: image4 },
+  { image: image5 },
+  { image: image6 },
+  { image: image7 },
+  { image: image8 },
+  { image: image9 },
+  { image: image10 },
+  { image: image11 },
+
+
 ];
 
 
@@ -139,16 +166,16 @@ export const therapiesData = [
       "Personalized sessions including dietary suggestions and natural therapies to detoxify your body.",
   },
   {
-  name: "Paralysis Acupressure Therapy",
-  image: "/assets/images/paralysis-acupressure.jpg",
-  whatIsIt:
-    "A specialized acupressure therapy focused on improving mobility, nerve stimulation, and blood circulation for individuals affected by paralysis.",
-  howItWorks:
-    "Targeted pressure is applied on nerve-regenerating and circulation-boosting points to activate muscle function, reduce stiffness, and support nervous system recovery.",
-  treats: ["Partial Paralysis", "Stroke Recovery", "Nerve Weakness", "Muscle Stiffness"],
-  whatToExpect:
-    "Regular sessions aimed at gradual improvement in movement, better blood flow, and enhanced coordination to support recovery.",
-}
+    name: "Paralysis Acupressure Therapy",
+    image: "/assets/images/paralysis-acupressure.jpg",
+    whatIsIt:
+      "A specialized acupressure therapy focused on improving mobility, nerve stimulation, and blood circulation for individuals affected by paralysis.",
+    howItWorks:
+      "Targeted pressure is applied on nerve-regenerating and circulation-boosting points to activate muscle function, reduce stiffness, and support nervous system recovery.",
+    treats: ["Partial Paralysis", "Stroke Recovery", "Nerve Weakness", "Muscle Stiffness"],
+    whatToExpect:
+      "Regular sessions aimed at gradual improvement in movement, better blood flow, and enhanced coordination to support recovery.",
+  }
 ];
 export const conditionsList = [
   {
@@ -172,11 +199,11 @@ export const conditionsList = [
   {
     name: "Migraines",
     slug: "migraines",
-    image:migranesImg,
+    image: migranesImg,
     shortDescription: "Reduce headache frequency and intensity.",
   },
 
-    {
+  {
     name: "Digestive Issues",
     slug: "digestive-issues",
     image: digestiveIssueImg,
@@ -185,19 +212,19 @@ export const conditionsList = [
   {
     name: "Insomnia",
     slug: "insomnia",
-    image:insomaniaImg,
+    image: insomaniaImg,
     shortDescription: "Improve sleep quality and restfulness.",
   },
   {
     name: "Arthritis",
     slug: "arthritis",
-    image:arthritiesImg,
+    image: arthritiesImg,
     shortDescription: "Ease joint pain and improve mobility.",
   },
   {
     name: "Back Pain",
     slug: "back-pain",
-    image:backPainImg,
+    image: backPainImg,
     shortDescription: "Natural relief for acute and chronic back pain.",
   },
   // ... add others
@@ -327,7 +354,7 @@ export const testimonialsList = [
     name: "Riya Sharma",
     city: "Mumbai",
     text: "After just a few sessions, my migraines disappeared. Truly life-changing experience!",
-    video: null,
+    video:video1 ,
   },
   {
     name: "Amit Verma",
@@ -339,13 +366,13 @@ export const testimonialsList = [
     name: "Sneha Kapoor",
     city: "Bangalore",
     text: "I struggled with chronic back pain for years. This therapy has improved my daily life immensely.",
-    video: null,
+    video: video2,
   },
   {
     name: "Rohit Singh",
     city: "Chennai",
     text: "Stress used to control my life. Thanks to the therapies here, I feel calm and focused every day.",
-    video: null,
+    video: video3,
   },
   {
     name: "Priya Nair",
@@ -357,19 +384,19 @@ export const testimonialsList = [
     name: "Vikram Das",
     city: "Hyderabad",
     text: "The holistic approach of this clinic really works. My anxiety has reduced significantly.",
-    video: null,
+    video: video4,
   },
   {
     name: "Meera Joshi",
     city: "Pune",
     text: "The therapists are very professional. I’ve seen real improvements in my insomnia and overall sleep quality.",
-    video: null,
+    video: video5,
   },
   {
     name: "Karan Mehta",
     city: "Jaipur",
     text: "Arthritis was affecting my daily routine. After these sessions, my joint mobility has improved a lot.",
-    video: null,
+    video: video6,
   },
   {
     name: "Ananya Rao",
@@ -381,13 +408,13 @@ export const testimonialsList = [
     name: "Siddharth Jain",
     city: "Ahmedabad",
     text: "I feel calmer, healthier, and stronger after regular sessions. Highly recommend for anyone seeking holistic healing.",
-    video: null,
+    video: video7,
   },
   {
     name: "Tanvi Gupta",
     city: "Chandigarh",
     text: "The treatments are gentle but effective. My overall wellness has improved beyond expectation.",
-    video: null,
+    video: video8,
   },
   {
     name: "Rahul Sharma",
@@ -398,7 +425,7 @@ export const testimonialsList = [
 ];
 
 
- export const navItems = [
+export const navItems = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
   { name: "Treatments and Services", path: "/TreatmentsAndServices" },

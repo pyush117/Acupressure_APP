@@ -9,7 +9,7 @@ const TestimonialCard = ({ name, city, text, video }) => {
         {video && (
           <video
             src={video}
-            className="rounded-lg w-full max-h-64 object-cover mb-4"
+            className="rounded-lg w-full max-h- object-cover mb-4"
             controls
           />
         )}
